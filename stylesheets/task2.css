@@ -1,0 +1,169 @@
+/* line 1, ../sass/task2.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/task2.scss */
+header {
+  background: black;
+  height: 60px;
+}
+/* line 10, ../sass/task2.scss */
+header img {
+  height: 60px;
+  margin-left: 10px;
+}
+/* line 14, ../sass/task2.scss */
+header nav {
+  float: right;
+  margin-right: 10px;
+  height: 60px;
+}
+/* line 18, ../sass/task2.scss */
+header nav ul {
+  height: 60px;
+}
+/* line 20, ../sass/task2.scss */
+header nav ul li {
+  color: yellow;
+  height: 60px;
+  list-style-type: none;
+  float: left;
+  text-align: center;
+}
+/* line 26, ../sass/task2.scss */
+header nav ul li:hover {
+  background: #777;
+  border-bottom: 2px solid red;
+}
+/* line 30, ../sass/task2.scss */
+header nav ul li a {
+  color: white;
+  line-height: 60px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+/* line 41, ../sass/task2.scss */
+body {
+  background: #ddd;
+}
+
+/* line 45, ../sass/task2.scss */
+article, aside {
+  margin: 30px;
+  background: white;
+  padding: 20px;
+  box-shadow: 1px 1px 2px 1px #aaa;
+}
+
+/* line 54, ../sass/task2.scss */
+article h2 {
+  margin-bottom: 20px;
+}
+/* line 57, ../sass/task2.scss */
+article h3 {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+/* line 62, ../sass/task2.scss */
+article .content {
+  margin-top: 10px;
+  text-indent: 2em;
+  line-height: 120%;
+}
+/* line 67, ../sass/task2.scss */
+article ul {
+  list-style-type: none;
+}
+/* line 70, ../sass/task2.scss */
+article ol {
+  margin: 10px 30px;
+}
+/* line 73, ../sass/task2.scss */
+article .info {
+  color: gray;
+  font-size: 13px;
+}
+/* line 77, ../sass/task2.scss */
+article table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* line 80, ../sass/task2.scss */
+article table tr th {
+  background: black;
+  color: white;
+  text-align: center;
+  border: 1px solid #aaa;
+}
+/* line 86, ../sass/task2.scss */
+article table td {
+  border: 1px solid #aaa;
+}
+/* line 89, ../sass/task2.scss */
+article table tfoot {
+  background: #aaa;
+  color: black;
+}
+
+/* line 97, ../sass/task2.scss */
+aside h4 {
+  border-left: 3px solid #ccc;
+  padding-left: 10px;
+  line-height: 30px;
+}
+/* line 103, ../sass/task2.scss */
+aside form {
+  margin: 0 auto;
+}
+/* line 107, ../sass/task2.scss */
+aside .line {
+  margin-top: 5px;
+}
+/* line 111, ../sass/task2.scss */
+aside .left {
+  width: 40%;
+  text-align: right;
+  display: inline-block;
+}
+/* line 117, ../sass/task2.scss */
+aside .top {
+  vertical-align: top;
+}
+/* line 121, ../sass/task2.scss */
+aside .right {
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+}
+/* line 127, ../sass/task2.scss */
+aside .hint {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* line 133, ../sass/task2.scss */
+aside #submit {
+  width: 100%;
+  background: #128fdc;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* line 145, ../sass/task2.scss */
+footer {
+  color: white;
+  background: black;
+  text-align: center;
+}
+/* line 149, ../sass/task2.scss */
+footer p {
+  padding: 20px 0;
+}
