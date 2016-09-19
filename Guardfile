@@ -30,7 +30,7 @@
 
 # guard 'compass', project_path: 'not_current_dir', configuration_file: 'path/to/my/compass_config.rb'
 guard 'livereload' do
-  watch('index.html')
+  watch(%r{.+\.(html)})
   watch(%r{stylesheets/.+\.(css)})
   watch(%r{scripts/.+\.(js)})
 end
