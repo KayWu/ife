@@ -1,0 +1,36 @@
+/* line 1, ../sass/task4.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 6, ../sass/task4.scss */
+#center_vertical {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  background: #ccc;
+  top: 50%;
+  margin-top: -100px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+/* line 17, ../sass/task4.scss */
+#left_top {
+  height: 50px;
+  width: 50px;
+  background: #fc0;
+  border-radius: 0 0 50px 0;
+}
+
+/* line 24, ../sass/task4.scss */
+#right_bottom {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: #fc0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50px 0 0 0;
+}

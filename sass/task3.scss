@@ -5,7 +5,7 @@
     @include box-sizing(border-box);
 }
 
-.content {
+#content {
     min-width: 600px;
     background: #eee;
     border: 1px solid #999;
@@ -13,7 +13,7 @@
     overflow: auto;
 }
 
-.left {
+#left {
     border: 1px solid #999;
     padding: 20px;
     width: 200px;
@@ -29,7 +29,7 @@
     }
 }
 
-.right {
+#right {
     float: right;
     width: 120px;
     padding-top: 20px;
@@ -41,7 +41,7 @@
     }
 }
 
-.center {
+#center {
     background: white;
     margin-left: 210px;
     margin-right: 130px;
