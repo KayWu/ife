@@ -1,0 +1,62 @@
+/* line 2, ../sass/task3.scss */
+* {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/task3.scss */
+.content {
+  min-width: 600px;
+  background: #eee;
+  border: 1px solid #999;
+  padding: 20px;
+  overflow: auto;
+}
+
+/* line 16, ../sass/task3.scss */
+.left {
+  border: 1px solid #999;
+  padding: 20px;
+  width: 200px;
+  background: white;
+  float: left;
+}
+/* line 22, ../sass/task3.scss */
+.left #team_icon {
+  float: left;
+}
+/* line 25, ../sass/task3.scss */
+.left #team_name {
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 32, ../sass/task3.scss */
+.right {
+  float: right;
+  width: 120px;
+  padding-top: 20px;
+  text-align: center;
+  background: white;
+  border: solid #999 1px;
+}
+/* line 39, ../sass/task3.scss */
+.right img {
+  padding-bottom: 20px;
+}
+
+/* line 44, ../sass/task3.scss */
+.center {
+  background: white;
+  margin-left: 210px;
+  margin-right: 130px;
+  border: 1px solid #999;
+}
+/* line 49, ../sass/task3.scss */
+.center p {
+  padding: 20px;
+}

@@ -1,0 +1,52 @@
+@import "compass/css3";
+* {
+    padding: 0;
+    margin: 0;
+    @include box-sizing(border-box);
+}
+
+.content {
+    min-width: 600px;
+    background: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    overflow: auto;
+}
+
+.left {
+    border: 1px solid #999;
+    padding: 20px;
+    width: 200px;
+    background: white;
+    float: left;
+    #team_icon {
+        float: left;
+    }
+    #team_name {
+        font-size: 12px;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+.right {
+    float: right;
+    width: 120px;
+    padding-top: 20px;
+    text-align: center;
+    background: white;
+    border: solid #999 1px;
+    img {
+        padding-bottom: 20px;
+    }
+}
+
+.center {
+    background: white;
+    margin-left: 210px;
+    margin-right: 130px;
+    border: 1px solid #999;
+    p {
+        padding: 20px;
+    }
+}
