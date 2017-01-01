@@ -26,18 +26,17 @@ header nav ul {
 }
 /* line 20, ../sass/task5.scss */
 header nav ul li {
-  color: yellow;
   height: 60px;
   list-style-type: none;
   float: left;
   text-align: center;
 }
-/* line 26, ../sass/task5.scss */
+/* line 25, ../sass/task5.scss */
 header nav ul li:hover {
   background: #777;
   border-bottom: 2px solid red;
 }
-/* line 30, ../sass/task5.scss */
+/* line 29, ../sass/task5.scss */
 header nav ul li a {
   color: white;
   line-height: 60px;
@@ -45,18 +44,18 @@ header nav ul li a {
   padding: 0 10px;
 }
 
-/* line 41, ../sass/task5.scss */
+/* line 40, ../sass/task5.scss */
 body {
   background: #ddd;
   min-width: 750px;
 }
 
-/* line 46, ../sass/task5.scss */
+/* line 45, ../sass/task5.scss */
 #left_content {
   margin-right: 430px;
 }
 
-/* line 50, ../sass/task5.scss */
+/* line 49, ../sass/task5.scss */
 article, aside {
   margin: 30px;
   background: white;
@@ -64,57 +63,57 @@ article, aside {
   box-shadow: 1px 1px 2px 1px #aaa;
 }
 
-/* line 59, ../sass/task5.scss */
+/* line 58, ../sass/task5.scss */
 article h2 {
   margin-bottom: 20px;
 }
-/* line 62, ../sass/task5.scss */
+/* line 61, ../sass/task5.scss */
 article h3 {
   color: gray;
   font-size: 16px;
   margin-bottom: 20px;
 }
-/* line 67, ../sass/task5.scss */
+/* line 66, ../sass/task5.scss */
 article .content {
   margin-top: 10px;
   text-indent: 2em;
   line-height: 120%;
 }
-/* line 72, ../sass/task5.scss */
+/* line 71, ../sass/task5.scss */
 article ul {
   list-style-type: none;
 }
-/* line 75, ../sass/task5.scss */
+/* line 74, ../sass/task5.scss */
 article ol {
   margin: 10px 30px;
 }
-/* line 78, ../sass/task5.scss */
+/* line 77, ../sass/task5.scss */
 article .info {
   color: gray;
   font-size: 13px;
 }
-/* line 82, ../sass/task5.scss */
+/* line 81, ../sass/task5.scss */
 article table {
   width: 100%;
   border-collapse: collapse;
 }
-/* line 85, ../sass/task5.scss */
+/* line 84, ../sass/task5.scss */
 article table tr th {
   background: black;
   color: white;
   text-align: center;
   border: 1px solid #aaa;
 }
-/* line 91, ../sass/task5.scss */
+/* line 90, ../sass/task5.scss */
 article table td {
   border: 1px solid #aaa;
 }
-/* line 94, ../sass/task5.scss */
+/* line 93, ../sass/task5.scss */
 article table tfoot {
   background: #aaa;
   color: black;
 }
-/* line 99, ../sass/task5.scss */
+/* line 98, ../sass/task5.scss */
 article figure {
   display: inline-block;
   margin-bottom: 10px;
@@ -124,48 +123,48 @@ article figure {
   padding: 10px;
 }
 
-/* line 109, ../sass/task5.scss */
+/* line 108, ../sass/task5.scss */
 aside {
   float: right;
   width: 360px;
 }
-/* line 112, ../sass/task5.scss */
+/* line 111, ../sass/task5.scss */
 aside h4 {
   border-left: 3px solid #ccc;
   padding-left: 10px;
   line-height: 30px;
 }
-/* line 118, ../sass/task5.scss */
+/* line 117, ../sass/task5.scss */
 aside form {
   margin: 0 auto;
 }
-/* line 122, ../sass/task5.scss */
+/* line 121, ../sass/task5.scss */
 aside .line {
   margin-top: 5px;
 }
-/* line 126, ../sass/task5.scss */
+/* line 125, ../sass/task5.scss */
 aside .left {
   width: 40%;
   text-align: right;
   display: inline-block;
 }
-/* line 132, ../sass/task5.scss */
+/* line 131, ../sass/task5.scss */
 aside .top {
   vertical-align: top;
 }
-/* line 136, ../sass/task5.scss */
+/* line 135, ../sass/task5.scss */
 aside .right {
   width: 50%;
   text-align: left;
   display: inline-block;
 }
-/* line 142, ../sass/task5.scss */
+/* line 141, ../sass/task5.scss */
 aside .hint {
   color: #aaa;
   font-size: 14px;
   margin-top: 5px;
 }
-/* line 148, ../sass/task5.scss */
+/* line 147, ../sass/task5.scss */
 aside #submit {
   width: 100%;
   background: #128fdc;
@@ -177,13 +176,13 @@ aside #submit {
   margin-top: 10px;
 }
 
-/* line 160, ../sass/task5.scss */
+/* line 159, ../sass/task5.scss */
 footer {
   color: white;
   background: black;
   text-align: center;
 }
-/* line 164, ../sass/task5.scss */
+/* line 163, ../sass/task5.scss */
 footer p {
   padding: 20px 0;
 }
