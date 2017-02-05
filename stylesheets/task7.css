@@ -1,0 +1,70 @@
+/* line 3, ../sass/task7.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, ../sass/task7.scss */
+body {
+  font-family: 'Microsoft YaHei', serif;
+  width: 1280px;
+  margin: auto;
+}
+
+/* line 18, ../sass/task7.scss */
+header {
+  height: 60px;
+  position: relative;
+  line-height: 60px;
+}
+
+/* line 24, ../sass/task7.scss */
+header .nav-left {
+  background: url("../images/task7/icon-1.png") no-repeat left center;
+  background-size: 30px 30px;
+  padding-left: 40px;
+  position: absolute;
+  left: 100px;
+  text-align: center;
+}
+/* line 31, ../sass/task7.scss */
+header .nav-left h2 {
+  font-size: 24px;
+  color: #373737;
+}
+
+/* line 37, ../sass/task7.scss */
+header nav {
+  position: absolute;
+  right: 160px;
+}
+/* line 40, ../sass/task7.scss */
+header nav ul {
+  color: #7c7e7e;
+}
+/* line 42, ../sass/task7.scss */
+header nav ul li {
+  width: 88px;
+  height: 56px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+}
+/* line 49, ../sass/task7.scss */
+header nav ul li:hover {
+  color: #e04a4b;
+  border-bottom: 4px #e04a4b solid;
+}
+
+/* line 57, ../sass/task7.scss */
+header .nav-right {
+  position: absolute;
+  right: 80px;
+  background: url("../images/task7/icon-2.jpg") no-repeat left center;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #e27474;
+}
