@@ -7,21 +7,20 @@
   box-sizing: border-box;
 }
 
-/* line 12, ../sass/task7.scss */
+/* line 13, ../sass/task7.scss */
 body {
-  font-family: 'Microsoft YaHei', serif;
   width: 1280px;
   margin: auto;
 }
 
-/* line 18, ../sass/task7.scss */
+/* line 19, ../sass/task7.scss */
 header {
   height: 60px;
   position: relative;
   line-height: 60px;
 }
 
-/* line 24, ../sass/task7.scss */
+/* line 25, ../sass/task7.scss */
 header .nav-left {
   background: url("../images/task7/icon-1.png") no-repeat left center;
   background-size: 30px 30px;
@@ -30,22 +29,22 @@ header .nav-left {
   left: 100px;
   text-align: center;
 }
-/* line 31, ../sass/task7.scss */
+/* line 32, ../sass/task7.scss */
 header .nav-left h2 {
   font-size: 24px;
   color: #373737;
 }
 
-/* line 37, ../sass/task7.scss */
+/* line 38, ../sass/task7.scss */
 header nav {
   position: absolute;
   right: 160px;
 }
-/* line 40, ../sass/task7.scss */
+/* line 41, ../sass/task7.scss */
 header nav ul {
-  color: #7c7e7e;
+  color: #ababab;
 }
-/* line 42, ../sass/task7.scss */
+/* line 43, ../sass/task7.scss */
 header nav ul li {
   width: 88px;
   height: 56px;
@@ -53,13 +52,13 @@ header nav ul li {
   display: inline-block;
   text-align: center;
 }
-/* line 49, ../sass/task7.scss */
+/* line 50, ../sass/task7.scss */
 header nav ul li:hover {
   color: #e04a4b;
-  border-bottom: 4px #e04a4b solid;
+  border-bottom: 4px solid #e04a4b;
 }
 
-/* line 57, ../sass/task7.scss */
+/* line 58, ../sass/task7.scss */
 header .nav-right {
   position: absolute;
   right: 80px;
@@ -69,7 +68,7 @@ header .nav-right {
   color: #e27474;
 }
 
-/* line 66, ../sass/task7.scss */
+/* line 67, ../sass/task7.scss */
 .jumbotron {
   height: 700px;
   background: url("../images/task7/pic01.jpg");
@@ -77,18 +76,18 @@ header .nav-right {
   padding-top: 200px;
   padding-left: 100px;
 }
-/* line 72, ../sass/task7.scss */
+/* line 73, ../sass/task7.scss */
 .jumbotron h1 {
   font-size: 64px;
   color: white;
 }
-/* line 76, ../sass/task7.scss */
+/* line 77, ../sass/task7.scss */
 .jumbotron p {
   margin-top: 24px;
   color: #dedede;
   font-size: 21px;
 }
-/* line 82, ../sass/task7.scss */
+/* line 83, ../sass/task7.scss */
 .jumbotron button {
   margin-top: 56px;
   color: white;
@@ -97,4 +96,53 @@ header .nav-right {
   width: 360px;
   height: 56px;
   font-size: 28px;
+}
+
+/* line 95, ../sass/task7.scss */
+.feature .cell {
+  position: relative;
+  height: 250px;
+  width: 24%;
+  display: inline-block;
+}
+/* line 100, ../sass/task7.scss */
+.feature .cell img {
+  display: block;
+  margin: 40px auto;
+}
+/* line 105, ../sass/task7.scss */
+.feature .cell p {
+  color: #ababab;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+/* line 113, ../sass/task7.scss */
+.feature .cell span {
+  position: absolute;
+  right: 0;
+  bottom: 72px;
+  height: 56px;
+  width: 2px;
+  background-color: #ababab;
+}
+
+/* line 125, ../sass/task7.scss */
+.else {
+  background-color: #ededed;
+  height: 360px;
+  padding-top: 92px;
+}
+/* line 129, ../sass/task7.scss */
+.else img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 134, ../sass/task7.scss */
+.else p {
+  color: #a2a2a2;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 56px;
 }

@@ -8,9 +8,10 @@
 
 $header-height: 60px;
 $red: #e04a4b;
+$gray: #ababab;
 
 body {
-  font-family: 'Microsoft YaHei', serif;
+  //font-family: 'Microsoft YaHei', serif;
   width: 1280px;
   margin: auto;
 }
@@ -38,7 +39,7 @@ header nav {
   position: absolute;
   right: 160px;
   ul {
-    color: #7c7e7e;
+    color: $gray;
     li {
       width: 88px;
       height: 56px;
@@ -48,7 +49,7 @@ header nav {
 
       &:hover {
         color: $red;
-        border-bottom: 4px $red solid;
+        border-bottom: 4px solid $red;
       }
     }
   }
@@ -88,6 +89,55 @@ header .nav-right {
     height: 56px;
     font-size: 28px;
   }
+}
+
+.feature {
+  .cell {
+    position: relative;
+    height: 250px;
+    width: 24%;
+    display: inline-block;
+    img {
+      display: block;
+      margin: 40px auto;
+    }
+
+    p {
+      color: $gray;
+      text-align: center;
+      width: 180px;
+      margin:0 auto;
+      font-size: 14px;
+    }
+
+    span {
+      position: absolute;
+      right: 0;
+      bottom: 72px;
+      height: 56px;
+      width: 2px;
+      background-color: $gray;
+    }
+  }
 
 }
+
+.else {
+  background-color: #ededed;
+  height: 360px;
+  padding-top: 92px;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  p {
+    color: #a2a2a2;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 56px;
+  }
+
+}
+
 
