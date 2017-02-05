@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/* line 11, ../sass/task7.scss */
+/* line 12, ../sass/task7.scss */
 body {
   font-family: 'Microsoft YaHei', serif;
   width: 1280px;
@@ -67,4 +67,34 @@ header .nav-right {
   padding-left: 20px;
   font-size: 14px;
   color: #e27474;
+}
+
+/* line 66, ../sass/task7.scss */
+.jumbotron {
+  height: 700px;
+  background: url("../images/task7/pic01.jpg");
+  background-size: cover;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+/* line 72, ../sass/task7.scss */
+.jumbotron h1 {
+  font-size: 64px;
+  color: white;
+}
+/* line 76, ../sass/task7.scss */
+.jumbotron p {
+  margin-top: 24px;
+  color: #dedede;
+  font-size: 21px;
+}
+/* line 82, ../sass/task7.scss */
+.jumbotron button {
+  margin-top: 56px;
+  color: white;
+  background: #e04a4b;
+  border: none;
+  width: 360px;
+  height: 56px;
+  font-size: 28px;
 }

@@ -7,13 +7,13 @@
 }
 
 $header-height: 60px;
+$red: #e04a4b;
 
 body {
   font-family: 'Microsoft YaHei', serif;
   width: 1280px;
   margin: auto;
 }
-
 
 header {
   height: $header-height;
@@ -47,8 +47,8 @@ header nav {
       text-align: center;
 
       &:hover {
-        color: #e04a4b;
-        border-bottom: 4px #e04a4b solid;
+        color: $red;
+        border-bottom: 4px $red solid;
       }
     }
   }
@@ -61,5 +61,33 @@ header .nav-right {
   padding-left: 20px;
   font-size: 14px;
   color: #e27474;
+}
+
+.jumbotron {
+  height: 700px;
+  background: url("../images/task7/pic01.jpg");
+  background-size: cover;
+  padding-top: 200px;
+  padding-left: 100px;
+  h1 {
+    font-size: 64px;
+    color: white;
+  }
+  p {
+    margin-top: 24px;
+    color: #dedede;
+    font-size: 21px;
+  }
+
+  button {
+    margin-top: 56px;
+    color: white;
+    background: $red;
+    border: none;
+    width: 360px;
+    height: 56px;
+    font-size: 28px;
+  }
+
 }
 
