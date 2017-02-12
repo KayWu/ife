@@ -564,7 +564,80 @@ header .nav-right {
         font-size: 15px;
       }
     }
-
   }
+}
+
+.contact {
+  background: #33363e;
+  height: 360px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+
+  h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .email {
+    margin-top: 28px;
+
+    input[type="text"] {
+      border: none;
+      height: 40px;
+      width: 425px;
+      padding: 10px;
+      font-size: 14px;
+      vertical-align: top;
+    }
+
+    input[type="submit"] {
+      border: none;
+      height: 40px;
+      width: 80px;
+      background: #787878;
+      color: white;
+      font-size: 15px;
+      vertical-align: top;
+    }
+  }
+  .icon {
+    margin-top: 30px;
+    span {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      font-size: 28px;
+    }
+  }
+
+}
+
+footer {
+  height: 55px;
+  color: white;
+  background: #303039;
+  position: relative;
+  span {
+    position: absolute;
+    font-size: 10px;
+    top: 20px;
+    left: 80px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+  }
+
 
 }

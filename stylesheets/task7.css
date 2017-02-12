@@ -578,3 +578,80 @@ header .nav-right {
   border: none;
   font-size: 15px;
 }
+
+/* line 570, ../sass/task7.scss */
+.contact {
+  background: #33363e;
+  height: 360px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+/* line 577, ../sass/task7.scss */
+.contact h3 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+/* line 582, ../sass/task7.scss */
+.contact p {
+  font-size: 12px;
+  line-height: 150%;
+}
+/* line 587, ../sass/task7.scss */
+.contact .email {
+  margin-top: 28px;
+}
+/* line 590, ../sass/task7.scss */
+.contact .email input[type="text"] {
+  border: none;
+  height: 40px;
+  width: 425px;
+  padding: 10px;
+  font-size: 14px;
+  vertical-align: top;
+}
+/* line 599, ../sass/task7.scss */
+.contact .email input[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 80px;
+  background: #787878;
+  color: white;
+  font-size: 15px;
+  vertical-align: top;
+}
+/* line 609, ../sass/task7.scss */
+.contact .icon {
+  margin-top: 30px;
+}
+/* line 611, ../sass/task7.scss */
+.contact .icon span {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  font-size: 28px;
+}
+
+/* line 621, ../sass/task7.scss */
+footer {
+  height: 55px;
+  color: white;
+  background: #303039;
+  position: relative;
+}
+/* line 626, ../sass/task7.scss */
+footer span {
+  position: absolute;
+  font-size: 10px;
+  top: 20px;
+  left: 80px;
+}
+/* line 633, ../sass/task7.scss */
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
