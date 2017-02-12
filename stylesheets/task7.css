@@ -1,0 +1,657 @@
+/* line 3, ../sass/task7.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, ../sass/task7.scss */
+body {
+  font-family: Microsoft YaHei, serif;
+  width: 1280px;
+  margin: auto;
+}
+
+/* line 21, ../sass/task7.scss */
+input {
+  font-family: Microsoft YaHei, serif;
+}
+
+/* line 25, ../sass/task7.scss */
+header {
+  height: 60px;
+  position: relative;
+  line-height: 60px;
+}
+
+/* line 31, ../sass/task7.scss */
+header .nav-left {
+  background: url("../images/task7/icon-1.png") no-repeat left center;
+  background-size: 30px 30px;
+  padding-left: 40px;
+  position: absolute;
+  left: 100px;
+  text-align: center;
+}
+/* line 38, ../sass/task7.scss */
+header .nav-left h2 {
+  font-size: 24px;
+  color: #373737;
+}
+
+/* line 44, ../sass/task7.scss */
+header nav {
+  position: absolute;
+  right: 160px;
+}
+/* line 47, ../sass/task7.scss */
+header nav ul {
+  color: #afafaf;
+}
+/* line 49, ../sass/task7.scss */
+header nav ul li {
+  width: 88px;
+  height: 56px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+}
+/* line 56, ../sass/task7.scss */
+header nav ul li:hover {
+  color: #ed4e52;
+  border-bottom: 4px solid #ed4e52;
+}
+
+/* line 64, ../sass/task7.scss */
+header .nav-right {
+  position: absolute;
+  right: 80px;
+  background: url("../images/task7/icon-2.jpg") no-repeat left center;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #e27474;
+}
+
+/* line 73, ../sass/task7.scss */
+.jumbotron {
+  height: 700px;
+  background: url("../images/task7/pic01.jpg");
+  background-size: cover;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+/* line 79, ../sass/task7.scss */
+.jumbotron h1 {
+  font-family: Arial serif;
+  font-size: 64px;
+  color: white;
+  font-weight: normal;
+}
+/* line 85, ../sass/task7.scss */
+.jumbotron p {
+  margin-top: 24px;
+  color: #ededed;
+  font-size: 20px;
+}
+/* line 91, ../sass/task7.scss */
+.jumbotron button {
+  margin-top: 56px;
+  color: white;
+  background: #ed4e52;
+  border: none;
+  width: 360px;
+  height: 56px;
+  font-size: 28px;
+}
+
+/* line 103, ../sass/task7.scss */
+.feature .cell {
+  position: relative;
+  height: 250px;
+  width: 24%;
+  display: inline-block;
+}
+/* line 108, ../sass/task7.scss */
+.feature .cell img {
+  display: block;
+  margin: 40px auto;
+}
+/* line 113, ../sass/task7.scss */
+.feature .cell p {
+  color: #afafaf;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+/* line 121, ../sass/task7.scss */
+.feature .cell span {
+  position: absolute;
+  right: 0;
+  bottom: 72px;
+  height: 56px;
+  width: 2px;
+  background-color: #afafaf;
+}
+
+/* line 133, ../sass/task7.scss */
+.else {
+  background-color: #ededed;
+  height: 360px;
+  padding-top: 92px;
+}
+/* line 137, ../sass/task7.scss */
+.else img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 142, ../sass/task7.scss */
+.else p {
+  color: #a2a2a2;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 56px;
+}
+
+/* line 150, ../sass/task7.scss */
+.search {
+  height: 340px;
+  background: url("../images/task7/pic02.jpg");
+  background-size: cover;
+  padding-top: 60px;
+  text-align: center;
+}
+/* line 157, ../sass/task7.scss */
+.search h4 {
+  color: white;
+  font-size: 24px;
+}
+/* line 162, ../sass/task7.scss */
+.search hr {
+  width: 40px;
+  height: 10px;
+  margin: 10px auto;
+  border: none;
+  border-top: 2px solid white;
+  transition: width 0.4s ease-in-out;
+}
+/* line 170, ../sass/task7.scss */
+.search hr:hover {
+  width: 260px;
+}
+/* line 176, ../sass/task7.scss */
+.search p {
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+}
+/* line 182, ../sass/task7.scss */
+.search .select {
+  margin-top: 40px;
+  height: 36px;
+  line-height: 36px;
+}
+/* line 187, ../sass/task7.scss */
+.search .select .input-wrap {
+  width: 100%;
+  height: 100%;
+  background: url("../images/task7/icon-7.png") 210px 8px no-repeat #fff;
+  background-size: 20px;
+  color: #afafaf;
+  font-size: 16px;
+}
+/* line 195, ../sass/task7.scss */
+.search .select .input-wrap input {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+/* line 202, ../sass/task7.scss */
+.search .select .input-wrap span {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-size: 12px;
+}
+/* line 210, ../sass/task7.scss */
+.search .select ul {
+  position: absolute;
+  width: 100%;
+  border: 2px solid #bf4e48;
+  border-top: 0;
+}
+/* line 215, ../sass/task7.scss */
+.search .select ul li {
+  list-style: none;
+  line-height: 32px;
+  background: #ededed;
+  text-align: left;
+  color: #afafaf;
+  padding-left: 40px;
+  font-size: 12px;
+}
+/* line 224, ../sass/task7.scss */
+.search .select ul li:hover {
+  background: url("../images/task7/icon-8.png") left no-repeat #bf4e48;
+  color: white;
+}
+/* line 231, ../sass/task7.scss */
+.search .select input[type="submit"] {
+  color: white;
+  position: relative;
+  background: #bf4e48;
+  width: 240px;
+  height: 36px;
+  margin: 0 20px;
+  border: none;
+  font-size: 14px;
+  vertical-align: top;
+}
+/* line 245, ../sass/task7.scss */
+.search .province .input-wrap {
+  border: 2px solid #bf4e48;
+  border-bottom: 0;
+}
+/* line 250, ../sass/task7.scss */
+.search .country, .search .province, .search .city {
+  position: relative;
+  width: 240px;
+  height: 36px;
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+/* line 260, ../sass/task7.scss */
+.activity {
+  text-align: center;
+  background: #ededed;
+  padding: 100px 0;
+}
+/* line 265, ../sass/task7.scss */
+.activity div {
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+  margin-left: 30px;
+}
+/* line 272, ../sass/task7.scss */
+.activity h3 {
+  letter-spacing: 23px;
+  font-size: 24px;
+  text-indent: 23px;
+  font-weight: normal;
+}
+/* line 279, ../sass/task7.scss */
+.activity h4 {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: normal;
+}
+/* line 285, ../sass/task7.scss */
+.activity p {
+  font-size: 14px;
+  color: gray;
+  margin: 10px 0;
+}
+
+/* line 292, ../sass/task7.scss */
+.new-world {
+  background: white;
+  height: 560px;
+}
+/* line 296, ../sass/task7.scss */
+.new-world .left {
+  float: left;
+  position: relative;
+  width: 850px;
+  height: 100%;
+  background: url("../images/task7/pic07.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+/* line 307, ../sass/task7.scss */
+.new-world .left::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -12px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 20px solid white;
+}
+/* line 318, ../sass/task7.scss */
+.new-world .left h4 {
+  font-size: 56px;
+  font-weight: normal;
+  line-height: 60px;
+}
+/* line 324, ../sass/task7.scss */
+.new-world .left h3 {
+  font-size: 150px;
+  font-weight: normal;
+  line-height: 150px;
+}
+/* line 330, ../sass/task7.scss */
+.new-world .left div {
+  width: 200px;
+  text-align: left;
+  margin: 0 auto;
+}
+/* line 334, ../sass/task7.scss */
+.new-world .left div p {
+  font-size: 20px;
+  line-height: 40px;
+}
+/* line 342, ../sass/task7.scss */
+.new-world .right {
+  width: 430px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding: 200px 60px 0;
+}
+/* line 349, ../sass/task7.scss */
+.new-world .right h3 {
+  font-weight: normal;
+}
+/* line 352, ../sass/task7.scss */
+.new-world .right h3 span {
+  color: #ed4e52;
+}
+/* line 357, ../sass/task7.scss */
+.new-world .right p {
+  color: #afafaf;
+  line-height: 28px;
+  font-size: 12px;
+  margin-top: 30px;
+  text-align: left;
+}
+/* line 365, ../sass/task7.scss */
+.new-world .right button {
+  border: 1px solid #ed4e52;
+  color: #ed4e52;
+  margin-top: 20px;
+  background: white;
+  width: 120px;
+  height: 36px;
+  font-size: 14px;
+}
+/* line 375, ../sass/task7.scss */
+.new-world .right .circle-line {
+  margin-top: 20px;
+}
+/* line 378, ../sass/task7.scss */
+.new-world .right .circle-line span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+/* line 385, ../sass/task7.scss */
+.new-world .right .circle-line .solid-circle {
+  font-size: 0;
+  background: #afafaf;
+  border-radius: 5px;
+}
+/* line 391, ../sass/task7.scss */
+.new-world .right .circle-line .circle {
+  font-size: 0;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+/* line 403, ../sass/task7.scss */
+.new-era {
+  height: 520px;
+}
+/* line 406, ../sass/task7.scss */
+.new-era .left, .new-era .middle, .new-era .right {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+/* line 413, ../sass/task7.scss */
+.new-era h3 {
+  font-weight: normal;
+  line-height: 30px;
+}
+/* line 418, ../sass/task7.scss */
+.new-era .left {
+  padding-top: 160px;
+  background: #ed4e52;
+  color: white;
+}
+/* line 422, ../sass/task7.scss */
+.new-era .left span {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  vertical-align: top;
+  border-top: 2px solid white;
+  margin-top: 20px;
+}
+/* line 431, ../sass/task7.scss */
+.new-era .left button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+  background: #ed4e52;
+}
+/* line 441, ../sass/task7.scss */
+.new-era .middle {
+  padding-top: 160px;
+}
+/* line 443, ../sass/task7.scss */
+.new-era .middle span {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  vertical-align: top;
+  border-top: 2px solid black;
+  margin-top: 20px;
+}
+/* line 452, ../sass/task7.scss */
+.new-era .middle button {
+  width: 150px;
+  height: 40px;
+  color: #ed4e52;
+  border: 1px solid #ed4e52;
+  font-size: 20px;
+  background: white;
+}
+/* line 462, ../sass/task7.scss */
+.new-era .right {
+  background: url("../images/task7/pic08.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 467, ../sass/task7.scss */
+.new-era .right::before {
+  position: absolute;
+  content: " ";
+  top: 50%;
+  margin-top: -12px;
+  left: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 20px solid white;
+}
+
+/* line 482, ../sass/task7.scss */
+.volunteer {
+  padding: 100px 120px 150px;
+}
+/* line 485, ../sass/task7.scss */
+.volunteer p {
+  font-size: 12px;
+  color: #afafaf;
+}
+/* line 490, ../sass/task7.scss */
+.volunteer .title {
+  text-align: center;
+  padding-bottom: 80px;
+}
+/* line 493, ../sass/task7.scss */
+.volunteer .title h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+/* line 498, ../sass/task7.scss */
+.volunteer .title span {
+  display: inline-block;
+  width: 30px;
+  border-top: 2px solid #ed4e52;
+  vertical-align: top;
+  height: 10px;
+  margin-top: 10px;
+}
+/* line 508, ../sass/task7.scss */
+.volunteer .form {
+  position: relative;
+}
+/* line 511, ../sass/task7.scss */
+.volunteer .form .left {
+  width: 300px;
+}
+/* line 513, ../sass/task7.scss */
+.volunteer .form .left h4 {
+  font-size: 14px;
+}
+/* line 517, ../sass/task7.scss */
+.volunteer .form .left p {
+  margin-top: 20px;
+}
+/* line 521, ../sass/task7.scss */
+.volunteer .form .left .more {
+  text-align: right;
+}
+/* line 523, ../sass/task7.scss */
+.volunteer .form .left .more span {
+  display: inline-block;
+  margin: 5px 0 20px;
+  color: #afafaf;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* line 533, ../sass/task7.scss */
+.volunteer .form .right {
+  width: 650px;
+  margin-left: 90px;
+  position: absolute;
+  left: 300px;
+  top: 0;
+}
+/* line 540, ../sass/task7.scss */
+.volunteer .form .right input[type="text"] {
+  width: 45%;
+  height: 40px;
+  background: #ededed;
+  padding-left: 10px;
+  border: none;
+  margin: 8px;
+}
+/* line 549, ../sass/task7.scss */
+.volunteer .form .right textarea {
+  width: 606px;
+  margin: 8px;
+  padding: 10px;
+  background: #ededed;
+  border: none;
+  resize: none;
+}
+/* line 558, ../sass/task7.scss */
+.volunteer .form .right input[type="submit"] {
+  width: 606px;
+  height: 40px;
+  margin: 8px;
+  background: #ededed;
+  border: none;
+  font-size: 15px;
+}
+
+/* line 570, ../sass/task7.scss */
+.contact {
+  background: #33363e;
+  height: 360px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+/* line 577, ../sass/task7.scss */
+.contact h3 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+/* line 582, ../sass/task7.scss */
+.contact p {
+  font-size: 12px;
+  line-height: 150%;
+}
+/* line 587, ../sass/task7.scss */
+.contact .email {
+  margin-top: 28px;
+}
+/* line 590, ../sass/task7.scss */
+.contact .email input[type="text"] {
+  border: none;
+  height: 40px;
+  width: 425px;
+  padding: 10px;
+  font-size: 14px;
+  vertical-align: top;
+}
+/* line 599, ../sass/task7.scss */
+.contact .email input[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 80px;
+  background: #787878;
+  color: white;
+  font-size: 15px;
+  vertical-align: top;
+}
+/* line 609, ../sass/task7.scss */
+.contact .icon {
+  margin-top: 30px;
+}
+/* line 611, ../sass/task7.scss */
+.contact .icon span {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  font-size: 28px;
+}
+
+/* line 621, ../sass/task7.scss */
+footer {
+  height: 55px;
+  color: white;
+  background: #303039;
+  position: relative;
+}
+/* line 626, ../sass/task7.scss */
+footer span {
+  position: absolute;
+  font-size: 10px;
+  top: 20px;
+  left: 80px;
+}
+/* line 633, ../sass/task7.scss */
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}

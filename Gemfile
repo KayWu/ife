@@ -1,5 +1,4 @@
-# frozen_string_literal: true
-source "https://rubygems.org"
+source 'https://gems.ruby-china.org'
 
 gem 'compass', '1.0.3'
 gem 'guard', '2.14.0'
