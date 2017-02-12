@@ -7,15 +7,19 @@
 }
 
 $header-height: 60px;
-$red: #e04a4b;
+$red: #ed4e52;
 $dark-red: #bf4e48;
 $gray: #ababab;
 $light-gray: #ededed;
 
 body {
-  //font-family: 'Microsoft YaHei', serif;
+  font-family: Microsoft YaHei, serif;
   width: 1280px;
   margin: auto;
+}
+
+input {
+  font-family: Microsoft YaHei, serif;
 }
 
 header {
@@ -73,13 +77,15 @@ header .nav-right {
   padding-top: 200px;
   padding-left: 100px;
   h1 {
+    font-family: Arial serif;
     font-size: 64px;
     color: white;
+    font-weight: normal;
   }
   p {
     margin-top: 24px;
-    color: #dedede;
-    font-size: 21px;
+    color: $light-gray;
+    font-size: 20px;
   }
 
   button {
@@ -186,7 +192,6 @@ header .nav-right {
       color: $gray;
       font-size: 16px;
 
-
       input {
         width: 100%;
         height: 100%;
@@ -198,6 +203,7 @@ header .nav-right {
         position: absolute;
         left: 10px;
         top: 0;
+        font-size: 12px;
       }
     }
 
@@ -213,6 +219,7 @@ header .nav-right {
         text-align: left;
         color: $gray;
         padding-left: 40px;
+        font-size: 12px;
 
         &:hover {
           background: url("../images/task7/icon-8.png") left no-repeat $dark-red;
@@ -229,13 +236,13 @@ header .nav-right {
       height: 36px;
       margin: 0 20px;
       border: none;
-      font-size: 18px;
+      font-size: 14px;
       vertical-align: top;
     }
 
   }
 
-  .province .input-wrap{
+  .province .input-wrap {
     border: 2px solid $dark-red;
     border-bottom: 0;
   }
@@ -266,10 +273,13 @@ header .nav-right {
     letter-spacing: 23px;
     font-size: 24px;
     text-indent: 23px;
+    font-weight: normal;
   }
 
   h4 {
     margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
   }
 
   p {
@@ -277,5 +287,118 @@ header .nav-right {
     color: gray;
     margin: 10px 0;
   }
+}
+
+.new-world {
+  background: white;
+  height: 560px;
+
+  .left {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 850px;
+    height: 100%;
+    background: url("../images/task7/pic07.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -12px;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 20px solid white;
+    }
+
+    h4 {
+      font-size: 56px;
+      font-weight: normal;
+      line-height: 60px;
+    }
+
+    h3 {
+      font-size: 150px;
+      font-weight: normal;
+      line-height: 150px;
+    }
+
+    div {
+      width: 200px;
+      text-align: left;
+      margin: 0 auto;
+      p {
+        font-size: 20px;
+        line-height: 40px;
+      }
+    }
+
+  }
+
+  .right {
+    width: 430px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 200px 60px 0;
+
+    h3 {
+
+      font-weight: normal;
+      span {
+        color: $red;
+      }
+    }
+
+    p {
+      color: $gray;
+      line-height: 28px;
+      font-size: 12px;
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    button {
+      border: 1px solid $red;
+      color: $red;
+      margin-top: 20px;
+      background: white;
+      width: 120px;
+      height: 36px;
+      font-size: 14px;
+    }
+
+    .circle-line {
+      margin-top: 20px;
+
+      span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+
+      }
+
+      .solid-circle {
+        font-size: 0;
+        background: $gray;
+        border-radius: 5px;
+      }
+
+      .circle {
+        font-size: 0;
+        border: 1px solid $gray;
+        border-radius: 5px;
+        margin-left: 15px;
+
+      }
+    }
+  }
+
 }
 

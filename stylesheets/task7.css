@@ -9,18 +9,24 @@
 
 /* line 15, ../sass/task7.scss */
 body {
+  font-family: Microsoft YaHei, serif;
   width: 1280px;
   margin: auto;
 }
 
 /* line 21, ../sass/task7.scss */
+input {
+  font-family: Microsoft YaHei, serif;
+}
+
+/* line 25, ../sass/task7.scss */
 header {
   height: 60px;
   position: relative;
   line-height: 60px;
 }
 
-/* line 27, ../sass/task7.scss */
+/* line 31, ../sass/task7.scss */
 header .nav-left {
   background: url("../images/task7/icon-1.png") no-repeat left center;
   background-size: 30px 30px;
@@ -29,22 +35,22 @@ header .nav-left {
   left: 100px;
   text-align: center;
 }
-/* line 34, ../sass/task7.scss */
+/* line 38, ../sass/task7.scss */
 header .nav-left h2 {
   font-size: 24px;
   color: #373737;
 }
 
-/* line 40, ../sass/task7.scss */
+/* line 44, ../sass/task7.scss */
 header nav {
   position: absolute;
   right: 160px;
 }
-/* line 43, ../sass/task7.scss */
+/* line 47, ../sass/task7.scss */
 header nav ul {
   color: #ababab;
 }
-/* line 45, ../sass/task7.scss */
+/* line 49, ../sass/task7.scss */
 header nav ul li {
   width: 88px;
   height: 56px;
@@ -52,13 +58,13 @@ header nav ul li {
   display: inline-block;
   text-align: center;
 }
-/* line 52, ../sass/task7.scss */
+/* line 56, ../sass/task7.scss */
 header nav ul li:hover {
-  color: #e04a4b;
-  border-bottom: 4px solid #e04a4b;
+  color: #ed4e52;
+  border-bottom: 4px solid #ed4e52;
 }
 
-/* line 60, ../sass/task7.scss */
+/* line 64, ../sass/task7.scss */
 header .nav-right {
   position: absolute;
   right: 80px;
@@ -68,7 +74,7 @@ header .nav-right {
   color: #e27474;
 }
 
-/* line 69, ../sass/task7.scss */
+/* line 73, ../sass/task7.scss */
 .jumbotron {
   height: 700px;
   background: url("../images/task7/pic01.jpg");
@@ -76,41 +82,43 @@ header .nav-right {
   padding-top: 200px;
   padding-left: 100px;
 }
-/* line 75, ../sass/task7.scss */
+/* line 79, ../sass/task7.scss */
 .jumbotron h1 {
+  font-family: Arial serif;
   font-size: 64px;
   color: white;
-}
-/* line 79, ../sass/task7.scss */
-.jumbotron p {
-  margin-top: 24px;
-  color: #dedede;
-  font-size: 21px;
+  font-weight: normal;
 }
 /* line 85, ../sass/task7.scss */
+.jumbotron p {
+  margin-top: 24px;
+  color: #ededed;
+  font-size: 20px;
+}
+/* line 91, ../sass/task7.scss */
 .jumbotron button {
   margin-top: 56px;
   color: white;
-  background: #e04a4b;
+  background: #ed4e52;
   border: none;
   width: 360px;
   height: 56px;
   font-size: 28px;
 }
 
-/* line 97, ../sass/task7.scss */
+/* line 103, ../sass/task7.scss */
 .feature .cell {
   position: relative;
   height: 250px;
   width: 24%;
   display: inline-block;
 }
-/* line 102, ../sass/task7.scss */
+/* line 108, ../sass/task7.scss */
 .feature .cell img {
   display: block;
   margin: 40px auto;
 }
-/* line 107, ../sass/task7.scss */
+/* line 113, ../sass/task7.scss */
 .feature .cell p {
   color: #ababab;
   text-align: center;
@@ -118,7 +126,7 @@ header .nav-right {
   margin: 0 auto;
   font-size: 14px;
 }
-/* line 115, ../sass/task7.scss */
+/* line 121, ../sass/task7.scss */
 .feature .cell span {
   position: absolute;
   right: 0;
@@ -128,18 +136,18 @@ header .nav-right {
   background-color: #ababab;
 }
 
-/* line 127, ../sass/task7.scss */
+/* line 133, ../sass/task7.scss */
 .else {
   background-color: #ededed;
   height: 360px;
   padding-top: 92px;
 }
-/* line 131, ../sass/task7.scss */
+/* line 137, ../sass/task7.scss */
 .else img {
   display: block;
   margin: 0 auto;
 }
-/* line 136, ../sass/task7.scss */
+/* line 142, ../sass/task7.scss */
 .else p {
   color: #a2a2a2;
   font-size: 50px;
@@ -147,7 +155,7 @@ header .nav-right {
   margin-top: 56px;
 }
 
-/* line 144, ../sass/task7.scss */
+/* line 150, ../sass/task7.scss */
 .search {
   height: 340px;
   background: url("../images/task7/pic02.jpg");
@@ -155,12 +163,12 @@ header .nav-right {
   padding-top: 60px;
   text-align: center;
 }
-/* line 151, ../sass/task7.scss */
+/* line 157, ../sass/task7.scss */
 .search h4 {
   color: white;
   font-size: 24px;
 }
-/* line 156, ../sass/task7.scss */
+/* line 162, ../sass/task7.scss */
 .search hr {
   width: 40px;
   height: 10px;
@@ -169,23 +177,23 @@ header .nav-right {
   border-top: 2px solid white;
   transition: width 0.4s ease-in-out;
 }
-/* line 164, ../sass/task7.scss */
+/* line 170, ../sass/task7.scss */
 .search hr:hover {
   width: 260px;
 }
-/* line 170, ../sass/task7.scss */
+/* line 176, ../sass/task7.scss */
 .search p {
   margin-top: 20px;
   color: white;
   font-size: 14px;
 }
-/* line 176, ../sass/task7.scss */
+/* line 182, ../sass/task7.scss */
 .search .select {
   margin-top: 40px;
   height: 36px;
   line-height: 36px;
 }
-/* line 181, ../sass/task7.scss */
+/* line 187, ../sass/task7.scss */
 .search .select .input-wrap {
   width: 100%;
   height: 100%;
@@ -194,27 +202,28 @@ header .nav-right {
   color: #ababab;
   font-size: 16px;
 }
-/* line 190, ../sass/task7.scss */
+/* line 195, ../sass/task7.scss */
 .search .select .input-wrap input {
   width: 100%;
   height: 100%;
   cursor: pointer;
   opacity: 0;
 }
-/* line 197, ../sass/task7.scss */
+/* line 202, ../sass/task7.scss */
 .search .select .input-wrap span {
   position: absolute;
   left: 10px;
   top: 0;
+  font-size: 12px;
 }
-/* line 204, ../sass/task7.scss */
+/* line 210, ../sass/task7.scss */
 .search .select ul {
   position: absolute;
   width: 100%;
   border: 2px solid #bf4e48;
   border-top: 0;
 }
-/* line 209, ../sass/task7.scss */
+/* line 215, ../sass/task7.scss */
 .search .select ul li {
   list-style: none;
   line-height: 32px;
@@ -222,13 +231,14 @@ header .nav-right {
   text-align: left;
   color: #ababab;
   padding-left: 40px;
+  font-size: 12px;
 }
-/* line 217, ../sass/task7.scss */
+/* line 224, ../sass/task7.scss */
 .search .select ul li:hover {
   background: url("../images/task7/icon-8.png") left no-repeat #bf4e48;
   color: white;
 }
-/* line 224, ../sass/task7.scss */
+/* line 231, ../sass/task7.scss */
 .search .select input[type="submit"] {
   color: white;
   position: relative;
@@ -237,15 +247,15 @@ header .nav-right {
   height: 36px;
   margin: 0 20px;
   border: none;
-  font-size: 18px;
+  font-size: 14px;
   vertical-align: top;
 }
-/* line 238, ../sass/task7.scss */
+/* line 245, ../sass/task7.scss */
 .search .province .input-wrap {
   border: 2px solid #bf4e48;
   border-bottom: 0;
 }
-/* line 243, ../sass/task7.scss */
+/* line 250, ../sass/task7.scss */
 .search .country, .search .province, .search .city {
   position: relative;
   width: 240px;
@@ -255,32 +265,146 @@ header .nav-right {
   vertical-align: top;
 }
 
-/* line 253, ../sass/task7.scss */
+/* line 260, ../sass/task7.scss */
 .activity {
   text-align: center;
   background: #ededed;
   padding: 100px 0;
 }
-/* line 258, ../sass/task7.scss */
+/* line 265, ../sass/task7.scss */
 .activity div {
   display: inline-block;
   width: 220px;
   vertical-align: top;
   margin-left: 30px;
 }
-/* line 265, ../sass/task7.scss */
+/* line 272, ../sass/task7.scss */
 .activity h3 {
   letter-spacing: 23px;
   font-size: 24px;
   text-indent: 23px;
+  font-weight: normal;
 }
-/* line 271, ../sass/task7.scss */
+/* line 279, ../sass/task7.scss */
 .activity h4 {
   margin-top: 10px;
+  font-size: 15px;
+  font-weight: normal;
 }
-/* line 275, ../sass/task7.scss */
+/* line 285, ../sass/task7.scss */
 .activity p {
   font-size: 14px;
   color: gray;
   margin: 10px 0;
+}
+
+/* line 292, ../sass/task7.scss */
+.new-world {
+  background: white;
+  height: 560px;
+}
+/* line 296, ../sass/task7.scss */
+.new-world .left {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 850px;
+  height: 100%;
+  background: url("../images/task7/pic07.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+/* line 308, ../sass/task7.scss */
+.new-world .left::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -12px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 20px solid white;
+}
+/* line 319, ../sass/task7.scss */
+.new-world .left h4 {
+  font-size: 56px;
+  font-weight: normal;
+  line-height: 60px;
+}
+/* line 325, ../sass/task7.scss */
+.new-world .left h3 {
+  font-size: 150px;
+  font-weight: normal;
+  line-height: 150px;
+}
+/* line 331, ../sass/task7.scss */
+.new-world .left div {
+  width: 200px;
+  text-align: left;
+  margin: 0 auto;
+}
+/* line 335, ../sass/task7.scss */
+.new-world .left div p {
+  font-size: 20px;
+  line-height: 40px;
+}
+/* line 343, ../sass/task7.scss */
+.new-world .right {
+  width: 430px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 200px 60px 0;
+}
+/* line 351, ../sass/task7.scss */
+.new-world .right h3 {
+  font-weight: normal;
+}
+/* line 354, ../sass/task7.scss */
+.new-world .right h3 span {
+  color: #ed4e52;
+}
+/* line 359, ../sass/task7.scss */
+.new-world .right p {
+  color: #ababab;
+  line-height: 28px;
+  font-size: 12px;
+  margin-top: 30px;
+  text-align: left;
+}
+/* line 367, ../sass/task7.scss */
+.new-world .right button {
+  border: 1px solid #ed4e52;
+  color: #ed4e52;
+  margin-top: 20px;
+  background: white;
+  width: 120px;
+  height: 36px;
+  font-size: 14px;
+}
+/* line 377, ../sass/task7.scss */
+.new-world .right .circle-line {
+  margin-top: 20px;
+}
+/* line 380, ../sass/task7.scss */
+.new-world .right .circle-line span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+/* line 387, ../sass/task7.scss */
+.new-world .right .circle-line .solid-circle {
+  font-size: 0;
+  background: #ababab;
+  border-radius: 5px;
+}
+/* line 393, ../sass/task7.scss */
+.new-world .right .circle-line .circle {
+  font-size: 0;
+  border: 1px solid #ababab;
+  border-radius: 5px;
+  margin-left: 15px;
 }
