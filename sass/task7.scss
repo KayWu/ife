@@ -10,6 +10,7 @@ $header-height: 60px;
 $red: #e04a4b;
 $dark-red: #bf4e48;
 $gray: #ababab;
+$light-gray: #ededed;
 
 body {
   //font-family: 'Microsoft YaHei', serif;
@@ -124,7 +125,7 @@ header .nav-right {
 }
 
 .else {
-  background-color: #ededed;
+  background-color: $light-gray;
   height: 360px;
   padding-top: 92px;
   img {
@@ -208,7 +209,7 @@ header .nav-right {
       li {
         list-style: none;
         line-height: 32px;
-        background: #ededed;
+        background: $light-gray;
         text-align: left;
         color: $gray;
         padding-left: 40px;
@@ -246,6 +247,35 @@ header .nav-right {
     display: inline-block;
     margin: 0 20px;
     vertical-align: top;
+  }
+}
+
+.activity {
+  text-align: center;
+
+  background: $light-gray;
+  padding: 100px 0;
+  div {
+    display: inline-block;
+    width: 220px;
+    vertical-align: top;
+    margin-left: 30px;
+  }
+
+  h3 {
+    letter-spacing: 23px;
+    font-size: 24px;
+    text-indent: 23px;
+  }
+
+  h4 {
+    margin-top: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
   }
 }
 
