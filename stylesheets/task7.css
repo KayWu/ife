@@ -305,7 +305,7 @@ header .nav-right {
 }
 /* line 296, ../sass/task7.scss */
 .new-world .left {
-  display: inline-block;
+  float: left;
   vertical-align: top;
   position: relative;
   width: 850px;
@@ -354,7 +354,7 @@ header .nav-right {
 .new-world .right {
   width: 430px;
   height: 100%;
-  display: inline-block;
+  float: left;
   vertical-align: top;
   text-align: center;
   padding: 200px 60px 0;
@@ -407,4 +407,85 @@ header .nav-right {
   border: 1px solid #ababab;
   border-radius: 5px;
   margin-left: 15px;
+}
+
+/* line 405, ../sass/task7.scss */
+.new-era {
+  height: 520px;
+}
+/* line 408, ../sass/task7.scss */
+.new-era .left, .new-era .middle, .new-era .right {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  vertical-align: top;
+  text-align: center;
+}
+/* line 416, ../sass/task7.scss */
+.new-era h3 {
+  font-weight: normal;
+  line-height: 30px;
+}
+/* line 423, ../sass/task7.scss */
+.new-era .left {
+  padding-top: 160px;
+  background: #ed4e52;
+  color: white;
+}
+/* line 427, ../sass/task7.scss */
+.new-era .left span {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  vertical-align: top;
+  border-top: 2px solid white;
+  margin-top: 20px;
+}
+/* line 436, ../sass/task7.scss */
+.new-era .left button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+  background: #ed4e52;
+}
+/* line 446, ../sass/task7.scss */
+.new-era .middle {
+  padding-top: 160px;
+}
+/* line 448, ../sass/task7.scss */
+.new-era .middle span {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  vertical-align: top;
+  border-top: 2px solid black;
+  margin-top: 20px;
+}
+/* line 457, ../sass/task7.scss */
+.new-era .middle button {
+  width: 150px;
+  height: 40px;
+  color: #ed4e52;
+  border: 1px solid #ed4e52;
+  font-size: 20px;
+  background: white;
+}
+/* line 467, ../sass/task7.scss */
+.new-era .right {
+  background: url("../images/task7/pic08.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 472, ../sass/task7.scss */
+.new-era .right::before {
+  position: absolute;
+  content: " ";
+  top: 50%;
+  margin-top: -12px;
+  left: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 20px solid white;
 }
