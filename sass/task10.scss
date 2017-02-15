@@ -1,0 +1,61 @@
+@import "compass/css3";
+* {
+  margin: 0;
+  padding: 0;
+  @include box-sizing(border-box);
+}
+
+body {
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+div {
+  border: 1px solid red;
+  width: 150px;
+  margin: 10px 0;
+}
+
+
+#first {
+  height: 120px;
+}
+
+#second {
+  height: 100px;
+}
+
+#third {
+  height: 40px;
+}
+
+#forth {
+  height: 200px;
+  border: 1px solid blue;
+}
+
+@media (min-width: 641px) {
+  main {
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 640px) {
+  main {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  #forth {
+    order: -1;
+  }
+}

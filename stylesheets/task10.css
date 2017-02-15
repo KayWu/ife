@@ -1,0 +1,65 @@
+/* line 2, ../sass/task10.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 12, ../sass/task10.scss */
+main {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+/* line 21, ../sass/task10.scss */
+div {
+  border: 1px solid red;
+  width: 150px;
+  margin: 10px 0;
+}
+
+/* line 28, ../sass/task10.scss */
+#first {
+  height: 120px;
+}
+
+/* line 32, ../sass/task10.scss */
+#second {
+  height: 100px;
+}
+
+/* line 36, ../sass/task10.scss */
+#third {
+  height: 40px;
+}
+
+/* line 40, ../sass/task10.scss */
+#forth {
+  height: 200px;
+  border: 1px solid blue;
+}
+
+@media (min-width: 641px) {
+  /* line 46, ../sass/task10.scss */
+  main {
+    align-items: center;
+  }
+}
+@media (max-width: 640px) {
+  /* line 53, ../sass/task10.scss */
+  main {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  /* line 58, ../sass/task10.scss */
+  #forth {
+    order: -1;
+  }
+}
