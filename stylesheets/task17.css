@@ -1,0 +1,15 @@
+/* line 1, ../sass/task17.scss */
+#aqi-chart-wrap {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: flex-end;
+  border: 2px solid gray;
+  width: 95%;
+  margin: auto;
+}
+/* line 10, ../sass/task17.scss */
+#aqi-chart-wrap div {
+  flex: 1;
+  border: 1px solid gray;
+}
