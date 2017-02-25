@@ -6,7 +6,7 @@
   align-items: flex-end;
   border: 2px solid gray;
   width: 95%;
-  margin: auto;
+  margin: 20px auto;
 }
 /* line 10, ../sass/task17.scss */
 #aqi-chart-wrap div {
