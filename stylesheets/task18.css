@@ -1,0 +1,18 @@
+/* line 1, ../sass/task18.scss */
+#left-out {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* line 6, ../sass/task18.scss */
+#queue {
+  margin-top: 10px;
+}
+/* line 8, ../sass/task18.scss */
+#queue div {
+  display: inline-block;
+  padding: 10px;
+  background: red;
+  color: white;
+  margin-right: 10px;
+}
