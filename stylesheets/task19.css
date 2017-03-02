@@ -1,0 +1,22 @@
+/* line 1, ../sass/task19.scss */
+#left-out, #sort {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* line 6, ../sass/task19.scss */
+#queue {
+  margin-top: 10px;
+  height: 100px;
+  position: relative;
+  line-height: 100px;
+}
+/* line 11, ../sass/task19.scss */
+#queue div {
+  display: inline-block;
+  width: 15px;
+  background: red;
+  color: white;
+  margin-right: 10px;
+  vertical-align: bottom;
+}

@@ -7,8 +7,6 @@ function init() {
             numbers.unshift(number);
             render();
         }
-
-
     });
     document.getElementById('right-in').addEventListener('click', function () {
         var number = getNumber();
@@ -16,7 +14,6 @@ function init() {
             numbers.push(number);
             render();
         }
-
     });
     document.getElementById('left-out').addEventListener('click', function () {
         if (numbers.length > 0) {
