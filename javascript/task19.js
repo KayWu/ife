@@ -8,38 +8,38 @@ $$ = function (element) {
 };
 
 function init() {
-    document.getElementById('left-in').addEventListener('click', function () {
+    $('#left-in').addEventListener('click', function () {
         var number = getNumber();
         if (isValid(number) && checkLength()) {
             numbers.unshift(number);
             render();
         }
     });
-    document.getElementById('right-in').addEventListener('click', function () {
+    $('#right-in').addEventListener('click', function () {
         var number = getNumber();
         if (isValid(number) && checkLength()) {
             numbers.push(number);
             render();
         }
     });
-    document.getElementById('left-out').addEventListener('click', function () {
+    $('#left-out').addEventListener('click', function () {
         if (numbers.length > 0) {
             var number = numbers.shift();
             alert('向左弹出: ' + number);
             render();
         }
     });
-    document.getElementById('right-out').addEventListener('click', function () {
+    $('#right-out').addEventListener('click', function () {
         if (numbers.length > 0) {
             var number = numbers.pop();
             alert('向右弹出: ' + number);
             render();
         }
     });
-    document.getElementById('sort').addEventListener('click', function () {
+    $('#sort').addEventListener('click', function () {
         sort();
     });
-    document.getElementById('shuffle').addEventListener('click', function () {
+    $('#shuffle').addEventListener('click', function () {
         shuffle(numbers);
         render();
     });
@@ -48,7 +48,7 @@ function init() {
 }
 
 function getNumber() {
-    return parseInt(document.getElementById('number').value);
+    return parseInt($('#number').value);
 }
 
 function isValid(number) {
@@ -75,7 +75,7 @@ function checkLength() {
 }
 
 function render() {
-    var queue = document.getElementById('queue');
+    var queue = $('#queue');
     var s = '';
     for (var i = 0; i < numbers.length; i++) {
         s += "<div style='height: " + numbers[i] + "px;'></div>";

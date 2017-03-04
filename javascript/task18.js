@@ -1,47 +1,69 @@
 var numbers = [];
 
+$ = function (element) {
+    return document.querySelector(element);
+};
+
 function init() {
-    document.getElementById('left-in').addEventListener('click', function () {
+    $('#left-in').addEventListener('click', function () {
         var number = getNumber();
         if (!isNaN(number)) {
-            numbers.unshift(number);
-            render();
+            leftIn(number);
         }
     });
-    document.getElementById('right-in').addEventListener('click', function () {
+    $('#right-in').addEventListener('click', function () {
         var number = getNumber();
         if (!isNaN(number)) {
-            numbers.push(number);
-            render();
+            rightIn(number);
         }
     });
-    document.getElementById('left-out').addEventListener('click', function () {
+    $('#left-out').addEventListener('click', function () {
         if (numbers.length > 0) {
-            var number = numbers.shift();
-            alert('向左弹出: ' + number);
-            render();
+            leftOut();
+
         }
     });
-    document.getElementById('right-out').addEventListener('click', function () {
+    $('#right-out').addEventListener('click', function () {
         if (numbers.length > 0) {
-            var number = numbers.pop();
-            alert('向右弹出: ' + number);
-            render();
+            rightOut();
         }
     });
 }
+
+function leftIn(number) {
+    numbers.unshift(number);
+    var $queue = $('#queue');
+    $queue.insertBefore(createNumberNode(number), $queue.firstChild);
+}
+
+function rightIn(number) {
+    numbers.push(number);
+    var $queue = $('#queue');
+    $queue.appendChild(createNumberNode(number));
+}
+
+function leftOut() {
+    alert('向左弹出: ' + numbers.shift());
+    var $queue = $('#queue');
+    $queue.removeChild($queue.firstElementChild);
+}
+
+function rightOut() {
+    alert('向右弹出: ' + numbers.pop());
+    var $queue = $('#queue');
+    $queue.removeChild($queue.lastElementChild);
+}
+
+
+function createNumberNode(number) {
+    var div = document.createElement('div');
+    div.textContent = number;
+    return div;
+}
+
 
 function getNumber() {
-    return parseInt(document.getElementById('number').value);
-}
-
-function render() {
-    var queue = document.getElementById('queue');
-    var s = '';
-    for (var i = 0; i < numbers.length; i++) {
-        s += "<div>" + numbers[i] + "</div>";
-    }
-    queue.innerHTML = s;
+    return parseInt($('#number').value);
 }
 
 init();
