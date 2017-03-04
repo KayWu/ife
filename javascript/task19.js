@@ -1,5 +1,12 @@
 var numbers = [];
 
+$ = function (element) {
+    return document.querySelector(element);
+};
+$$ = function (element) {
+    return document.querySelectorAll(element);
+};
+
 function init() {
     document.getElementById('left-in').addEventListener('click', function () {
         var number = getNumber();
@@ -76,16 +83,64 @@ function render() {
     queue.innerHTML = s;
 }
 
+function initQueue() {
+    // private instance variables
+    var queue = [], self, timer;
+
+    function schedule(fn, t) {
+        timer = setTimeout(function () {
+            timer = null;
+            fn();
+            if (queue.length) {
+                var item = queue.shift();
+                schedule(item.fn, item.t);
+            }
+        }, t);
+    }
+
+    self = {
+        delay: function (fn, t) {
+            // if already queuing things or running a timer,
+            //   then just add to the queue
+            if (queue.length || timer) {
+                queue.push({fn: fn, t: t});
+            } else {
+                // no queue or timer yet, so schedule the timer
+                schedule(fn, t);
+            }
+            return self;
+        },
+        cancel: function () {
+            clearTimeout(timer);
+            queue = [];
+        }
+    };
+    return self;
+}
+
+
 function sort() {
+    var queue = initQueue();
     if (numbers.length <= 1) return;
     for (var i = 0; i < numbers.length; i++) {
         for (var j = i + 1; j < numbers.length; j++) {
             if (numbers[i] > numbers[j]) {
                 swap(numbers, i, j);
-                render();
-                setTimeout(sort, 100);
-                return;
+                queue.delay(wrapperStep(i, j), 100);
             }
+        }
+    }
+
+    function step(i, j) {
+        var elements = $$('#queue div');
+        var temp = elements[i].style.height;
+        elements[i].style.height = elements[j].style.height;
+        elements[j].style.height = temp;
+    }
+
+    function wrapperStep(i, j) {
+        return function () {
+            step(i, j);
         }
     }
 }
