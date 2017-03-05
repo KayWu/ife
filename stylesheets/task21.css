@@ -1,9 +1,26 @@
 /* line 3, ../sass/task21.scss */
 #tag #tag-label {
   min-height: 32px;
+  margin-top: 16px;
 }
 
-/* line 9, ../sass/task21.scss */
+/* line 10, ../sass/task21.scss */
 #hobby {
   margin-top: 16px;
+}
+/* line 13, ../sass/task21.scss */
+#hobby #hobby-label {
+  margin-top: 16px;
+}
+
+/* line 19, ../sass/task21.scss */
+span {
+  background: #8bc9ff;
+  color: white;
+  margin-right: 8px;
+  padding: 2px;
+}
+/* line 24, ../sass/task21.scss */
+span:hover {
+  background: #ddc5ff;
 }

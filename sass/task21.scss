@@ -2,10 +2,26 @@
 
   #tag-label {
     min-height: 32px;
+    margin-top: 16px;
   }
 
 }
 
 #hobby {
   margin-top: 16px;
+
+  #hobby-label {
+    margin-top: 16px;
+  }
+}
+
+
+span {
+  background: #8bc9ff;
+  color: white;
+  margin-right: 8px;
+  padding: 2px;
+  &:hover {
+    background: #ddc5ff;
+  }
 }
